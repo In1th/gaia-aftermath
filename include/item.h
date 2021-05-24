@@ -1,6 +1,13 @@
-//
-// Created by Mateusz Kruk on 24.03.2021.
-//
+/* ===========================================
+ * item.h file
+ * ===========================================
+ * author: Mateusz Kruk
+ * e-mail: krukm634@gmail.com
+ * last modified: 25.05.2021
+ * ===========================================
+ * version: 0.1.0-a.1 [backpack]
+ * ===========================================
+ */
 
 #ifndef ITEMS_H
 #define ITEMS_H

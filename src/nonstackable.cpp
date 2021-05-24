@@ -1,3 +1,13 @@
+/* ===========================================
+ * nonstackable.cpp file
+ * ===========================================
+ * author: Mateusz Kruk
+ * e-mail: krukm634@gmail.com
+ * last modified: 25.05.2021
+ * ===========================================
+ * version: 0.1.0-a.1 [backpack]
+ * ===========================================
+ */
 
 #include "../include/nonstackable.h"
 
