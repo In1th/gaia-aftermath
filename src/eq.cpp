@@ -129,7 +129,7 @@ void add(Stack<item_ptr> &s)
     labels.push_back("  > value quantity quantity_cap");
     labels.push_back("  > value quantity quantity_cap effect effect_level duration");
     labels.push_back("  > quantity");
-    labels.push_back("  > value, armour_type protection");
+    labels.push_back("  > value armour_type protection");
     labels.push_back("  > value protection effect effect_level duration iswearable istwohended");
     labels.push_back("  > value weapon_type damage istwohanded");
     labels.push_back("  > value weapon_type damage range istwohanded");

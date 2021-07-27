@@ -72,10 +72,26 @@ Bright White    97  107
 
 #define c_goto(x,y) \033[x:yH
 
+#define H_LINE "\u2500"
+#define V_LINE "\u2502"
+
+#define UL_CORNER "\u256D"
+#define UR_CORNER "\u256E"
+#define LR_CORNER "\u256F"
+#define LL_CORNER "\u2570"
+
 #define line(x)                            \
     for (int i = 0; i < x; i++){           \
-        print <<  "\u2500";                \
+        print <<  H_LINE;                \
     }                                      \
     print << eol
+
+#define sline(x)                            \
+    do{for (int i = 0; i < x; i++){           \
+        print <<  H_LINE;                \
+    }}while(0)                                  \
+
+#define NAME_CHAR_LIMIT 30
+#define BOX_CHAR_LIMIT 128
 
 #endif
